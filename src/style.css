@@ -1,0 +1,39 @@
+.header-home {
+    font-size: 24px;    
+}
+
+.exercise-tab, .nutrition-tab {
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+
+}
+
+#exercise-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.gym-section-header {
+    font-size: 36px;
+    
+}
+
+#app p {
+    text-align: center;
+}
+
+#app { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#exercise-form label {
+  display: grid;
+  grid-template-columns: 120px 1fr; 
+  align-items: center;
+  column-gap: 16px;
+}

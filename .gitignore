@@ -1,0 +1,14 @@
+# Node dependencies
+node_modules/
+
+# Build output
+dist/
+
+# SQLite database
+db/data.sqlite
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
